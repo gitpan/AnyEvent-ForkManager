@@ -1,0 +1,7 @@
+#steps = FindVersion, ChangeAllVersions, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
+steps = ChangeAllVersions, CheckChangeLog, DistTest, MakeDist, UploadCPAN
+
+git.tagpattern = %v
+git.push_to = origin
+
+CheckChangeLog.files = Changes

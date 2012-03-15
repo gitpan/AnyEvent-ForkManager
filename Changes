@@ -1,0 +1,5 @@
+Revision history for Perl extension AnyEvent::ForkManager
+
+0.01 2012-03-16
+    - original version; created by dim
+      at Sun Jan  8 09:10:22 2012.
