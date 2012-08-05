@@ -3,16 +3,16 @@ abstract: 'A simple parallel processing fork manager with AnyEvent'
 author:
   - 'Kenta Sato <karupa@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.62
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.88
   Test::Requires: 0.06
   Test::SharedFork: 0
   Time::HiRes: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.62
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
 dynamic_config: 1
-generated_by: 'Module::Install version 1.04'
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -35,4 +35,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/karupanerura/p5-AnyEvent-ForkManager.git
-version: 0.01
+version: 0.02
